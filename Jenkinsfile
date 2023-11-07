@@ -2,7 +2,7 @@ pipeline {
     agent { label "Jenkins-Agent" }
     environment {
               APP_NAME = "register-app-pipeline"
-              IMAGE_TAG = 1.0.0-45
+              IMAGE_TAG = "1.0.0-45"
     }
 
     stages {
